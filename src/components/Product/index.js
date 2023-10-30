@@ -5,7 +5,7 @@ import tokopedia from "@/Assets/Icon/tokopedia.png";
 
 export default function Product() {
   return (
-    <div className="border-2 border-black mb-6">
+    <div className="border-2 border-black mb-4">
       <Image className="w-full h-auto" src={Productimg} alt="test" />
       <div className="m-2 ">
         <p>[Code]</p>

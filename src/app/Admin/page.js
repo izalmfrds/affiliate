@@ -3,7 +3,7 @@ import profile from "../../Assets/Images/profile.png";
 export default function Admin() {
   return (
     <>
-      <div className="border-2 border-black rounded-2xl bg-[#343434] text-white m-1">
+      <div className="border-2 rounded-2xl bg-[#343434] text-white m-1">
         <div className=" flex flex-row gap-4 mt-14 mx-2">
           <Image className="w-14 h-14" src={profile} alt="profileimg" />
           <div className="text-base">
@@ -99,6 +99,10 @@ export default function Admin() {
           placeholder="Masukan Link Tokopedia"
         />
       </div>
+
+      <button class="w-full h-12 bg-[#343434] text-white font-medium rounded-lg">
+        <h1>Upload Produk</h1>
+      </button>
     </>
   );
 }
