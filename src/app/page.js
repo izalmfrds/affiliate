@@ -5,7 +5,7 @@ import Kategori from "@/components/Kategori";
 import Product from "@/components/Product";
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Banner />
       <div className="sticky top-0 pt-2 h-auto bg-white ">
         <Search />
