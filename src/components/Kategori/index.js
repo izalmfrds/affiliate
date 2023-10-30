@@ -4,7 +4,7 @@ import kategoriimg from "@/Assets/Images/kategoribaju.png";
 
 export default function Kategori() {
   return (
-    <div className="grid grid-cols-4 gap-4 mb-6 bg-white shadow-md">
+    <div className="grid grid-cols-4 gap-4 mb-6 bg-white shadow-md mx-2">
       <div className=" justify-items-center items-center text-center m-auto my-4">
         <Link href="/Kategori_pages">
           <Image className="w-12 h-12  " src={kategoriimg} alt="iconkategori" />

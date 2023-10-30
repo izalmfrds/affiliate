@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="">
       <Banner />
-      <div className="sticky top-0 bg-white">
+      <div className="sticky top-0 bg-white h-auto">
         <Search />
         <Kategori />
       </div>
