@@ -100,7 +100,7 @@ export default function Admin() {
         />
       </div>
 
-      <button class="w-full h-12 bg-[#343434] text-white font-medium rounded-lg">
+      <button class="w-full h-12 bg-[#343434] text-white font-medium rounded-lg my-2">
         <h1>Upload Produk</h1>
       </button>
     </>
