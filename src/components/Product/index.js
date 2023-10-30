@@ -1,14 +1,13 @@
 import Image from "next/image";
-import Productimg from "../../Assets/Images/test.png";
-import shopee from "../../Assets/Icon/shopee.png";
-import tokopedia from "../../Assets/Icon/tokopedia.png";
+import Productimg from "@/Assets/Images/test.png";
+import shopee from "@/Assets/Icon/shopee.png";
+import tokopedia from "@/Assets/Icon/tokopedia.png";
 
 export default function Product() {
   return (
     <div className="border-2 border-black mb-6">
       <Image className="w-full h-auto" src={Productimg} alt="test" />
-
-      <div className="m-2">
+      <div className="m-2 ">
         <p>[Code]</p>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

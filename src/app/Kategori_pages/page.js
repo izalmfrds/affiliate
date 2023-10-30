@@ -1,4 +1,3 @@
-import "./globals.css";
 import Search from "@/components/Search";
 import Product from "@/components/Product";
 

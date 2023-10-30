@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import kategoriimg from "../../Assets/Images/kategoribaju.png";
+import kategoriimg from "@/Assets/Images/kategoribaju.png";
 
 export default function Kategori() {
   return (
@@ -13,7 +13,7 @@ export default function Kategori() {
       </div>
 
       <div className=" justify-items-center items-center text-center m-auto">
-        <Link href="/register">
+        <Link href="/Admin">
           <Image className="w-12 h-12 " src={kategoriimg} alt="iconkategori" />
           <h1>Baju</h1>
         </Link>

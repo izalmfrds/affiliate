@@ -5,7 +5,7 @@ import Kategori from "@/components/Kategori";
 import Product from "@/components/Product";
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Banner />
       <Search />
       <Kategori />
