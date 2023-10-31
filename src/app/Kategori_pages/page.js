@@ -13,11 +13,11 @@ export default async function Kategori() {
   return (
     <>
       <div className="sticky top-0 bg-white pt-2 pb-2 shadow-lg">
-        <div className="flex flex-row items-center gap-24 pb-2">
+        <div className="flex flex-row items-center text-center justify-between pb-2 h-20">
           <Link href="/">
-            <Image src={Back} className="w-8 h-8 ml-2" alt="iconback" />
+            <Image src={Back} className="w-8 h-8 mx-2" alt="iconback" />
           </Link>
-          <h1 className="font-bold text-2xl">Kategori Baju</h1>
+          <h1 className="font-bold text-2xl w-full">Kategori Pakaian</h1>
         </div>
         <Search />
       </div>

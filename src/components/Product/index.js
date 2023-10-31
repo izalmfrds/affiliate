@@ -14,7 +14,7 @@ const index = ({ api }) => {
             <div key={index} className="border-2 border-black my-4 ">
               <div className="p-12">
                 <Image
-                  className="w-full h-auto"
+                  className="w-full h-250"
                   src={produk.image}
                   alt="test"
                   width={250}
@@ -22,9 +22,9 @@ const index = ({ api }) => {
                 />
               </div>
 
-              <div className="bg-purple-300 py-2">
+              <div className="border-t-[2px] border-black py-2">
                 <div className="m-2 ">
-                  <p>{produk.id}</p>
+                  <p className="font-bold">[ {produk.id} ]</p>
                   <p>{produk.title}</p>
                 </div>
                 <div className="flex flex-rows gap-2 items-center m-2">
