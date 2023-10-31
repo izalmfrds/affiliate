@@ -3,7 +3,12 @@ import Banner from "@/components/Banner";
 import Search from "@/components/Search";
 import Kategori from "@/components/Kategori";
 import Product from "@/components/Product";
-export default function Home() {
+export default async function Home() {
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_API_BASE_URL}/products`
+  );
+  const allProduk = await response.json();
+
   return (
     <div>
       <Banner />
@@ -11,8 +16,8 @@ export default function Home() {
         <Search />
         <Kategori />
       </div>
-      <Product />
-      <Product />
+
+      <Product api={allProduk ?? []} />
     </div>
   );
 }
