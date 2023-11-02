@@ -8,7 +8,7 @@ export default async function Home() {
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_API_BASE_URL}/products`
   );
-  const allProduk = await response.json();
+  const list = await response.json();
 
   return (
     <div>
@@ -18,7 +18,7 @@ export default async function Home() {
         <Kategori />
       </div>
 
-      <Product api={allProduk ?? []} />
+      <Product api={list ?? []} />
     </div>
   );
 }
